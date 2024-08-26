@@ -729,3 +729,163 @@ color: #434455;
   row-gap: 48px;
     }
   }
+
+.footer {
+  padding: 96px 0;
+  background: #2e2f42;
+}
+
+.container-footer{
+  flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    justify-content: center;
+    align-items: center;
+  margin: auto;
+  width: 1158px;
+}
+
+.footer-div{
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-align: center;
+color: #4d5ae5;
+}
+.span-footer {
+  color: #f4f4fd;
+}
+.footer-title {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+max-width: 264px;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+
+}
+
+.footer-list-icon{
+  display: flex;
+  gap: 16px;
+}
+
+.footer-item-icon{
+  width: 40px;
+  height: 40px;
+}
+
+.footer-link-icon{
+  width: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link-icon:hover,
+.footer-link-icon:focus{
+  background-color: #31d0aa;
+}
+
+.footer-form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #ffffff;
+padding-left: 16px;
+padding-right: 16px;
+background-color: transparent;
+outline: none;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input:hover,
+.footer-input:focus{
+  border-color: #31d0aa;
+}
+
+.footer-btn {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+padding: 8px 24px;
+min-width: 165px;
+height: 40px;
+background-color: #4d5ae5;
+border: none;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #ffffff;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+cursor: pointer;
+}
+
+.footer-btn:hover,
+.footer-btn:focus{
+  background-color: #31d0aa;
+}
+
+.footer-icon-frame{
+  margin-left: 16px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .container-footer{
+    gap: 24px;
+    row-gap: 72px;
+    justify-content: flex-start;
+    margin-left: 108px;
+  }
+  .footer-link{
+    justify-content: flex-start;
+  }
+  .footer-item{
+    justify-content: flex-start;
+  }
+}
